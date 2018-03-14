@@ -54,6 +54,8 @@ html {
   font-family: "Inter UI", Helvetica, arial, sans-serif;
   color: #111;
   padding: 48px 24px 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -113,6 +115,10 @@ h2 {
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
+}
+
+*+h2 {
+  magin-top: 48px;
 }
 
 h3 {
